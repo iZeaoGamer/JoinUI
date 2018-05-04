@@ -1,0 +1,7 @@
+name: JoinUI
+version: 0.5
+api: [3.0.0-ALPHA11,3.0.0-ALPHA12]
+main: JoinUI\Main
+author: georgianYT
+load: POSTWORLD
+description: JoinTitleUI For mcpe server.
