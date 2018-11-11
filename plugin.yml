@@ -1,6 +1,6 @@
 name: JoinUI
-version: 0.5
-api: [3.0.0-ALPHA11,3.0.0-ALPHA12]
+version: 0.6
+api: [3.0.0]
 main: JoinUI\Main
 author: georgianYT
 load: POSTWORLD
