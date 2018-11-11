@@ -5,7 +5,7 @@ namespace JoinUI;
 use JoinUI\Main;
 use pocketmine\Player;
 use pocketmine\plugin\Plugin;
-use pocketmine\scheduler\PluginTask;
+use pocketmine\scheduler\Task;
 use pocketmine\utils\TextFormat;
 use jojoe77777\FormAPI;
 
@@ -38,8 +38,9 @@ class JoinUITask extends PluginTask{
             }
             return false;
         });
-        $form->setTitle("§7Welcome, §e" . $player->getName());
-        $form->addButton($button);
+        $form->setTitle("§aWelcome to §6Void§bMiner§cPE §dNetwork!, §3" . $player->getName());
+        $form->addButton("§aPlease select a server to join!");
+        $form->addButton("§bWant to play? §cPlay now!");
         $form->sendToPlayer($player);
     }
 }
