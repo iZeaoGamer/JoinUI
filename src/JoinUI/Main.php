@@ -30,6 +30,6 @@ class Main extends PluginBase implements Listener{
 
     public function onJoin(PlayerJoinEvent $event){
         $player = $event->getPlayer();
-        $this->getServer()->getScheduler()->scheduleDelayedTask(new JoinUITask($this, $player), 130);
+        $this->getScheduler()->scheduleDelayedTask(new JoinUITask($this, $player), 130);
     }
 }
