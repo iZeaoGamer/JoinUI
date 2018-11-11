@@ -9,7 +9,7 @@ use pocketmine\scheduler\Task;
 use pocketmine\utils\TextFormat;
 use jojoe77777\FormAPI;
 
-class JoinUITask extends PluginTask{
+class JoinUITask extends Task{
 
     private $plugin;
     private $player;
